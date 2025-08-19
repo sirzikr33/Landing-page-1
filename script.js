@@ -10,7 +10,7 @@ document.getElementById("myForm").addEventListener("submit", function(e) {
   if (name !== "" && email !== "" && message !== "") {
     alertBox.innerHTML = `
       <div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>Berhasil!</strong> Semua data sudah terisi dengan benar.
+        <strong>Berhasil!</strong> Terima kasih sudah menghubungi.
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
     `;
